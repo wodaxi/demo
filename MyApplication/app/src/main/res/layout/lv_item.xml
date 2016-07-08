@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:gravity="center_vertical"
+    android:layout_margin="10dp"
+    android:padding="10dp"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_width="@dimen/layout_width"
+        android:src="@mipmap/ic_launcher"
+        android:layout_height="@dimen/layout_height"
+        android:id="@+id/imageView" />
+    <TextView
+        android:id="@+id/textivew"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="我的好友"
+        android:layout_centerVertical="true"
+        android:layout_toEndOf="@+id/imageView"
+        android:layout_marginStart="55dp" />
+</RelativeLayout>

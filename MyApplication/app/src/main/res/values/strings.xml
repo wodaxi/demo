@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">My Application</string>
+    <string name="menu_1">签到</string>
+    <string name="menu_2">通讯录</string>
+    <string name="menu_3">消息</string>
+    <string name="menu_4">动态</string>
+    <string name="menu_5">我的</string>
+
+    <string name="login_button_text">登录</string>
+</resources>
